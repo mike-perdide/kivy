@@ -210,8 +210,8 @@ class Carousel(StencilView):
     '''
 
     scroll_distance = NumericProperty('20dp')
-    '''Distance to move before scrolling the :class:`ScrollView`, in pixels. As
-    soon as the distance has been traveled, the :class:`ScrollView` will start
+    '''Distance to move before scrolling the :class:`Carousel`, in pixels. As
+    soon as the distance has been traveled, the :class:`Carousel` will start
     to scroll, and no touch event will go to children.
     It is advisable that you base this value on the dpi of your target device's
     screen.
